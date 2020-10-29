@@ -19,7 +19,7 @@
     "start": "ember serve --port 4200",
     "test": "npm-run-all lint:* test:*",
     "test:ember": "ember test",
-    "deploy": "git push && run build && gh-pages -d dist"
+    "deploy": "git push && npm run build && gh-pages -d dist"
   },
   "devDependencies": {
     "@ember/optional-features": "^1.3.0",
