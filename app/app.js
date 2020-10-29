@@ -25,15 +25,3 @@ export const bootstrap = emberLifecycles.bootstrap;
 export const mount = emberLifecycles.mount;
 export const unmount = emberLifecycles.unmount;
 
-/*
-export const unmount = () => {
-
-  return emberLifecycles.unmount().then(() => {
-
-  const app = Array.from(document.querySelectorAll('script')).filter(s => s.src.endsWith('/navbar/assets/navbar.js'))
-  document.head.removeChild(app[0]);
-  const vendor = Array.from(document.querySelectorAll('script')).filter(s => s.src.endsWith('/navbar/assets/vendor.js'))
-  document.head.removeChild(vendor[0]);
-  });
-}
-*/
